@@ -1,0 +1,164 @@
+.hero.section {
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-family: "Roboto";
+}
+
+.images.section {
+    background-color: white;
+}
+
+.quotes.section {
+    background-color: #e5e7eb;
+}
+
+.action.section {
+    background-color: white;
+}
+
+.footer.section {
+    background-color: white;
+}
+
+.section  {
+    padding: 0 25%
+}
+
+.header {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 8px 0;
+}
+
+.logo {
+    font-size: 24px;
+}
+
+.header-list {
+    font-size: 18px;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: end;
+    gap: 16px;
+}
+
+.title-container {
+    padding: 128px 0;
+    display: flex;
+    gap: 64px;
+}
+
+.description-container {
+    flex: 1;
+    margin-right:64px;
+}
+
+.main-text {
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+.secondary-text {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.image-container {
+    background-color: grey;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 12.5%;
+    padding: 1.25% 5%;
+    border-style: hidden;
+    margin: 8px 0;
+    font-weight: bold;
+}
+
+.images .container {
+    padding: 64px 32px;
+}
+
+.info-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    justify-self: center;
+    padding: 32px 0;
+}
+
+.image-box-container {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 64px;
+    gap: 24px;
+    min-height: 200px;
+}
+
+.image-text-box {
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: stretch;
+}
+
+.image-box {
+    border: 2px solid blue;
+    border-radius: 12.5%;
+    flex: 1;
+    
+}
+
+.image-desc {
+    text-align: center;
+}
+
+.quotes .container {
+    padding: 64px 64px;
+}
+
+.quote {
+    color: #1f2937;
+    font-size: 36px;
+    font-style: italic;
+    padding-bottom: 8px;
+}
+
+.attribution {
+    text-align: end;
+    font-size: 24px;
+    font-weight: 800;
+    padding-right: 8px;
+}
+
+.footer.section {
+    padding: 64px 25%;
+}
+
+.footer .container {
+    background-color: #3882f6;
+    display: flex;
+    border-radius: 1.25%;
+    color: #f9faf8;
+    padding: 36px 64px;
+    justify-content: space-around;
+}
+
+.action {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.signup.white {
+    border-color: #F9FAF8;
+    border-style: solid;
+}
